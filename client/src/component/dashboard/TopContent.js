@@ -84,7 +84,7 @@ const TopContent = () => {
 
       <Content
         name={"Monthly Income"}
-        value={parseFloat(monthlyIncome)?.toFixed(2)}
+        value={monthlyIncome ?monthlyIncome?.toFixed(2) : "0.00"}
         border={"border-amber-600"}
         unit={"php"}
       />
@@ -97,7 +97,7 @@ const TopContent = () => {
 
       <Content
         name={"Quarterly Income"}
-        value={parseFloat(quarterlyIncome)?.toFixed(2)}
+        value={quarterlyIncome ? quarterlyIncome?.toFixed(2): "0.00"}
         border={"border-amber-400"}
         unit={"php"}
       />
@@ -110,7 +110,7 @@ const TopContent = () => {
 
       <Content
         name={"Annual Income"}
-        value={parseFloat(yearlyIncome)?.toFixed(2)}
+        value={yearlyIncome? yearlyIncome?.toFixed(2) : "0.00"}
         border={"border-amber-400"}
         unit={"php"}
       />

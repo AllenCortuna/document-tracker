@@ -58,7 +58,7 @@ const Login = () => {
           <button
             type="submit"
             disabled={loading}
-            className={`p-4 px-8 font-[500] text-md border-2 rounded-md bg-zinc-800 text-white mr-0 mt-8 m-auto ${
+            className={`p-4 px-8 font-[500] text-md border-2 rounded-lg bg-zinc-700 text-white w-full mt-8 m-auto  ${
               loading && "animate-pulse"
             }`}
             onClick={handleSubmit}
