@@ -6,4 +6,4 @@ password: "",
 database:"documents" 
 })
 
-module.exports = db;
+module.exports = db;``
